@@ -5,14 +5,13 @@ layout: home
 hero:
   name: "Sistemas Operativos Monopuesto"
   text: "Un manual y guía de la asignatura SOM"
-  tagline: My great project tagline
+  tagline: Apuntes de Sistemas Operativos
+  logo: /logosSO.webp
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Apuntes
+      link: /01-01-tema-sistema-informatico
+    
 
 features:
   - title: Feature A
