@@ -5,6 +5,7 @@ import {withMermaid} from "vitepress-plugin-mermaid";
 
 export default withMermaid(
   defineConfig({
+    base: "/manualSOM/",
     title: "Sistemas Operativos Monopuesto",
     description: "Un manual y guía de la asignatura 1º SMR",
     // 🔻 Habilita el renderizado de ecuaciones matemáticas:
