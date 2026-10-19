@@ -6,7 +6,7 @@ hero:
   name: "Sistemas Operativos Monopuesto"
   text: "Un manual y guía de la asignatura SOM"
   tagline: Apuntes de Sistemas Operativos
-  logo: /logosSO.webp
+  logo: /logosSO.png
   actions:
     - theme: brand
       text: Apuntes
