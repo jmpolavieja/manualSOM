@@ -7,7 +7,7 @@ hero:
   text: "Un manual y guía de la asignatura SOM"
   tagline: Apuntes de Sistemas Operativos
   image:
-    src: /logosSO.png
+    src: /logosSOd.png
     alt: Logo de Sistemas Operativos
   actions:
     - theme: brand
