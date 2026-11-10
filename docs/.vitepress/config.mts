@@ -16,7 +16,11 @@ export default withMermaid(
       // https://vitepress.dev/reference/default-theme-config
       nav: [
         {text: 'Home', link: '/'},
-        {text: '1ª Evaluación', link: '/01-01-tema-sistema-informatico'}
+        {text: 'UD1', link: '/01-01-tema-sistema-informatico'},
+        {text: 'UD2', link: '/02-01-tema-arquitectura-y-procesos'},
+        {text: 'UD3', link: '/03-01-tema-introduccion-virtualizacion'},
+        {text: 'UD4', link: '/04-01-tema-discos-particiones'},
+        {text: 'UD5', link: '/05-01-tema-gestion-memoria'}
       ],
 
       sidebar: [
