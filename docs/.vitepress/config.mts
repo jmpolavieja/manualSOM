@@ -6,7 +6,7 @@ import {withMermaid} from "vitepress-plugin-mermaid";
 export default withMermaid(
   defineConfig({
     base: "/manualSOM/",
-    title: "Sistemas Operativos Monopuesto",
+    title: "SOM",
     description: "Un manual y guía de la asignatura 1º SMR",
     // 🔻 Habilita el renderizado de ecuaciones matemáticas:
     markdown: {
@@ -22,7 +22,7 @@ export default withMermaid(
       sidebar: [
         {
           text: 'UD1: Sistemas Informáticos (RA1)',
-          collapsed: false,
+          collapsed: true,
           items: [
             {text: '1.1 Tema: El Sistema Informático', link: '/01-01-tema-sistema-informatico'},
             {text: '1.1 Práctica: Inspección de Hardware', link: '/01-01-cuestionario-sistema-informatico'},
@@ -31,7 +31,7 @@ export default withMermaid(
         },
         {
           text: 'UD2: Introducción a los SSOO (RA1)',
-          collapsed: false,
+          collapsed: true,
           items: [
             {text: '2.1 Tema: Arquitectura y Procesos', link: '/02-01-tema-arquitectura-y-procesos'},
             {text: '2.1 Cuestionario y práctica arquitectura y procesos.', link: '/02-01-cuestionario-sistemas-operativos'},
@@ -41,7 +41,7 @@ export default withMermaid(
         },
         {
           text: 'UD3: Virtualización de Sistemas (RA5)',
-          collapsed: false,
+          collapsed: true,
           items: [
             {text: '3.1 Tema: Fundamentos de Virtualización', link: '/03-01-tema-introduccion-virtualizacion'},
             {text: '3.1 Cuestionario: Hipervisores y MVs', link: '/03-01-cuestionario-virtualizacion'},
@@ -51,7 +51,7 @@ export default withMermaid(
         },
         {
           text: 'UD4: Instalación de SSOO (RA2)',
-          collapsed: false,
+          collapsed: true,
           items: [
             {
               text: '4.1 Tema: Discos, Particiones y Sistemas de Archivos',
@@ -64,7 +64,7 @@ export default withMermaid(
         },
         {
           text: 'UD5: Gestión de la memoria (RA1 y RA3)',
-          collapsed: false,
+          collapsed: true,
           items: [
             {text: '5.1 Tema: Memoria RAM', link: '/05-01-tema-gestion-memoria'},
             {text: '5.1 Práctica Gestión de la RAM ', link: '/practicas/05-01-practica-particiones-fragmentacion'}
