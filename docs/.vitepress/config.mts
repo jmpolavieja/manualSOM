@@ -55,11 +55,19 @@ export default withMermaid(
           items: [
             {
               text: '4.1 Tema: Discos, Particiones y Sistemas de Archivos',
-              link: '/04-01-tema-estructura-discos-particiones'
+              link: '/04-01-tema-discos-particiones'
             },
-            {text: '4.1 Cuestionario: Planificación de Disco', link: '/04-01-cuestionario-planificacion-particiones'},
+            {text: '4.1 Cuestionario: Planificación de Disco', link: '/04-01-cuestionario-planificacion-disco'},
             {text: '4.2 Tema: Proceso de Instalación y Licencias', link: '/04-02-tema-proceso-instalacion-licencias'},
-            {text: '4.2 Práctica: Despliegue de SSOO en MV', link: '/04-02-practica-instalacion-sistemas'}
+            {text: '4.2 Práctica: Despliegue de SSOO en MV', link: '/04-02-practica-despliegue-ssoo-mv'}
+          ]
+        },
+        {
+          text: 'UD5: Gestión de la memoria (RA1 y RA3)',
+          collapsed: false,
+          items: [
+            {text: '5.1 Tema: Memoria RAM', link: '/05-01-tema-gestion-memoria'},
+            {text: '5.1 Práctica Gestión de la RAM ', link: '/practicas/05-01-practica-particiones-fragmentacion'}
           ]
         }
       ],
